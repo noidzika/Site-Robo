@@ -1,0 +1,528 @@
+.index{
+    background-image: url(../imagens/imagem_fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Bebas Neue', cursive; /* O elemento 'font-family' define a família de fontes para o texto do elemento. O valor 'Bebas Neue', cursive indica que a fonte Bebas Neue deve ser usada, e se não estiver disponível, uma fonte cursiva genérica será usada como alternativa. */
+    color:antiquewhite
+}
+
+
+main{
+    padding: 5px 40px;
+    margin-top: 20px; /* O elemento 'margin-top' define a margem superior do elemento. */
+    border-radius: 10px;
+}
+.titulo_pagina{
+    text-align: center; /* O elemento 'text-align' define o alinhamento horizontal do texto dentro do elemento. */
+    font-size: 50px; /* O elemento 'font-size' define o tamanho da fonte do texto. */
+    color: rgb(186, 229, 196);
+    margin: 0; /* O elemento 'margin' define a margem externa do elemento, ou seja, a distância entre o elemento e os outros elementos AO SEU REDOR. */
+}
+
+#menu ul{
+    padding: 8px 1px; /* O elemento 'padding' define a margem interna do elemento, ou seja, a distância entre o conteúdo do elemento e as bordas do elemento. */
+    margin: 0; /* O elemento 'margin' define a margem externa do elemento, ou seja, a distância entre o elemento e os outros elementos AO SEU REDOR. */
+    background-color: rgba(31, 183, 49, 0.519);
+    list-style: none; /* O elemento 'list-style' define o estilo de lista para os elementos de lista. O valor 'none' remove os marcadores de lista. */
+    text-align: center; /* O elemento 'text-align' define o alinhamento horizontal do texto dentro do elemento. */
+    padding-top: 5px; /* O elemento 'padding-top' define a margem superior do elemento. */
+    padding-bottom: 10px; /* O elemento 'padding-bottom' define a margem inferior do elemento. */
+    border-radius: 10px;
+}
+#menu ul li {
+    display: inline-block;
+}
+#menu ul li a {
+    padding: 5px 10px;
+    background-color: rgba(7, 206, 20, 0.786);
+    color: rgb(186, 229, 196);
+    text-decoration: none;
+    border-bottom: 5px solid rgba(6, 165, 17, 0.786);
+    border-radius: 5px; /* arredondar as bordas */
+}
+#menu ul li a:hover { /* O elemento ':hover' é um pseudo-classe que é aplicada a um elemento quando o mouse está sobre ele. */
+    background-color: rgba(6, 165, 17, 0.786);
+    color: rgb(186, 229, 196);
+    border-bottom: 5px solid rgba(7, 206, 20, 0.786);
+}   
+.section1{
+    background-color: rgba(127, 31, 162, 0.519);
+    display: inline-flex; /* O elemento 'display' define o tipo de exibição do elemento. O valor 'flex' indica que o elemento deve ser um contêiner flexível, permitindo que seus itens filhos sejam dispostos em uma linha ou coluna flexível. */
+    width: 100%; /* O elemento 'width' define a largura do elemento. */
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 40px 20px;
+}
+.imagem, .titulo, .subtitulo{
+    margin: 0;
+}
+.info1{
+    background-color: rgba(127, 31, 162, 0.519);
+    color:rgb(186, 229, 196);
+    border-radius: 10px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 0;
+}
+.form{    
+    background-color: rgba(127, 31, 162, 0.519);
+    color:rgb(186, 229, 196);
+    border-radius: 10px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 0;
+}
+
+.form form option{
+    padding: 5px 5px;
+    background-color: rgba(31, 172, 3, 0.742);
+    color: rgb(186, 229, 196);
+    text-decoration: none;   
+    
+    
+}
+
+#robo_escolhido{
+    padding: 5px 5px;
+    background-color: rgba(3, 85, 172, 0.742);
+    color: rgb(186, 229, 196);
+    text-decoration: none;
+    border-bottom: 2px solid rgba(3, 93, 172, 0.742); /* O elemento 'border-bottom' define a borda inferior do elemento. */
+    border-radius: 5px; /* arredondar as bordas */ 
+}
+
+.section2{
+    display: inline-flex;
+}
+.lista1{
+    background-attachment: fixed;
+    background-color: rgba(81, 31, 162, 0.519);
+    color:rgb(186, 229, 196);
+    border-radius: 10px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 0;
+}
+
+.lista2{
+    background-attachment: fixed;
+    background-color: rgba(81, 31, 162, 0.519);
+    color:rgb(186, 229, 196);
+    border-radius: 10px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 0;
+}
+
+.artigo{
+    text-align: right;
+    font-style: normal; /* O elemento 'font-style' define o estilo da fonte do texto. O valor 'normal' indica que o texto deve ser exibido com um estilo de fonte normal, sem itálico ou oblíquo. */
+    font-size: 15px; /* O elemento 'font-size' define o tamanho da fonte do texto. */
+    color: rgba(37, 165, 131, 0.519)
+}
+.section3{
+    display: flex; /* O elemento 'display' define o tipo de exibição do elemento. O valor 'flex' indica que o elemento deve ser um contêiner flexível, permitindo que seus itens filhos sejam dispostos em uma linha ou coluna flexível. */
+    justify-content: space-between; /* O elemento 'justify-content' define o alinhamento horizontal dos itens dentro do contêiner flexível. O valor 'space-between' distribui os itens de forma que haja espaço igual entre eles, com o primeiro item alinhado à esquerda e o último item alinhado à direita. */
+    align-items: center; /* O elemento 'align-items' define o alinhamento vertical dos itens dentro do contêiner flexível. O valor 'center' alinha os itens ao centro verticalmente. */
+}
+.video{
+background-color: crimson;
+border-radius: 10px;
+padding: 20px 20px;
+margin: 0 auto;
+padding-top: 0;
+}
+.lista3{
+    background-attachment: fixed; /* O elemento 'background-attachment' define se a imagem de fundo deve rolar com o conteúdo da página ou permanecer fixa. O valor 'fixed' indica que a imagem de fundo deve permanecer fixa em relação à janela de visualização, mesmo quando o conteúdo da página é rolado. */
+    background-color: rgba(127, 31, 162, 0.519);
+    color:rgb(186, 229, 196);
+    border-radius: 10px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 0;
+}
+.robo{
+    margin: 30px 0;
+    text-align: center;
+    width: 100%; /* O elemento 'width' define a largura do elemento. */
+    background-attachment:scroll; /* O elemento 'background-attachment' define se a imagem de fundo deve rolar com o conteúdo da página ou permanecer fixa. O valor 'scroll' indica que a imagem de fundo deve rolar junto com o conteúdo da página. */
+    animation:cubic-bezier(0.215, 0.610, 0.355, 1) 2s infinite;
+}
+.robo table{
+    background-color: rgba(127, 31, 162, 0.519);
+    border-radius: 10px;
+    padding: 40px;
+    margin: 0 auto;
+}
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+                                                   /* C O N T A T O */
+
+.body_contato{
+    background-color: rgb(45, 56, 142);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Bebas Neue', cursive; /* O elemento 'font-family' define a família de fontes para o texto do elemento. O valor 'Bebas Neue', cursive indica que a fonte Bebas Neue deve ser usada, e se não estiver disponível, uma fonte cursiva genérica será usada como alternativa. */
+    color:antiquewhite;
+}
+.conteudo_contato{
+    background-color: rgba(127, 31, 162, 0.519);
+    display: flex; /* O elemento 'display' define o tipo de exibição do elemento. O valor 'flex' indica que o elemento deve ser um contêiner flexível, permitindo que seus itens filhos sejam dispostos em uma linha ou coluna flexível. */
+    justify-content: space-between; /* O elemento 'justify-content' define o alinhamento horizontal dos itens dentro do contêiner flexível. O valor 'space-between' distribui os itens de forma que haja espaço igual entre eles, com o primeiro item alinhado à esquerda e o último item alinhado à direita. */    
+    align-items: center;
+    border-radius: 10px;
+    padding: 40px 20px;
+    margin: 0 auto;
+}
+.formulario_contato{
+    background-color: rgba(255, 52, 214, 0.579);
+    border-color: aquamarine;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 0;
+}
+.formulario_contato label{
+    display: block; /* O elemento 'display' define o tipo de exibição do elemento. O valor 'block' indica que o elemento deve ser exibido como um bloco, ocupando toda a largura disponível e iniciando em uma nova linha. */
+    margin-bottom: 10px; /* O elemento 'margin-bottom' define a margem inferior do elemento. */
+    font-weight: bold; /* O elemento 'font-weight' define a espessura da fonte do texto. O valor 'bold' indica que o texto deve estar em negrito. */
+    color:antiquewhite;
+}
+.formulario_contato input, .formulario_contato textarea{
+    padding: 10px;
+    border: 1px solid rgba(255, 52, 214, 0.579); /* O elemento 'border' define a borda do elemento. O valor '1px solid rgba(255, 52, 214, 0.579)' indica que a borda deve ter uma largura de 1 pixel, ser sólida e ter a cor especificada. */
+    border-radius: 5px; 
+    box-sizing: border-box; /* O elemento 'box-sizing' define como as dimensões do elemento são calculadas. O valor 'border-box' indica que a largura e altura do elemento incluem o conteúdo, o preenchimento e a borda, mas não incluem a margem. */
+    margin-bottom: 20px; /* O elemento 'margin-bottom' define a margem inferior do elemento. */
+}
+.formulario_contato button{
+    padding: 10px 20px;
+    font-size: 16px; /* O elemento 'font-size' define o tamanho da fonte do texto. */
+    text-transform: uppercase; /* O elemento 'text-transform' define a transformação do texto. O valor 'uppercase' indica que o texto deve ser convertido para letras maiúsculas. */
+    letter-spacing: 3px; /* O elemento 'letter-spacing' define o espaçamento entre as letras do texto. O valor '3px' indica que deve haver um espaçamento de 3 pixels entre as letras. */
+    background-color: rgba(127, 5, 103, 0.579);
+    color: antiquewhite;
+    border: none; /* O elemento 'border' define a borda do elemento. O valor 'none' indica que o elemento não deve ter borda. */
+    border-radius: 5px; /* O elemento 'border-radius' define o raio das bordas do elemento, permitindo criar cantos arredondados. O valor '5px' indica que as bordas devem ter um raio de 5 pixels. */
+    cursor: pointer; /* O elemento 'cursor' define o tipo de cursor que deve ser exibido quando o mouse estiver sobre o elemento. O valor 'pointer' indica que o cursor deve ser exibido como uma mão apontando, indicando que o elemento é clicável. */
+    background: -webkit-linear-gradient(135deg #9e02d7,#3d25b4); /* O elemento '-webkit-linear-gradient' é uma propriedade  específica para navegadores baseados no WebKit, como o Safari e o Chrome. O valor '135deg #9e02d7,#9a25b4' indica que o fundo deve ser um gradiente linear que vai do canto superior esquerdo (135 graus) para o canto inferior direito, com as cores especificadas. */
+    background: linear-gradient(135deg #9e02d7,#4b25b4); /* O elemento 'linear-gradient' é uma função CSS que cria um gradiente linear como plano de fundo. O valor '135deg #9e02d7,#9a25b4' indica que o fundo deve ser um gradiente linear que vai do canto superior esquerdo (135 graus) para o canto inferior direito, com as cores especificadas. */
+}
+.formulario_contato button:hover{
+    background-color: rgba(127, 5, 103, 0.779);
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+}
+.formulario_contato button:active{
+    background-color: rgba(127, 5, 103, 0.779);
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+}
+.menu3{
+    background-color: rgba(31, 162, 57, 0.519);
+    color:rgb(186, 229, 196);
+    border-radius: 10px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 0;
+}
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+                                                    /* F O N T E */
+.body_fonte{
+    background-color: rgb(71, 89, 107);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Bebas Neue', cursive; /* O elemento 'font-family' define a família de fontes para o texto do elemento. O valor 'Bebas Neue', cursive indica que a fonte Bebas Neue deve ser usada, e se não estiver disponível, uma fonte cursiva genérica será usada como alternativa. */
+    color:antiquewhite;
+}
+/*nav*/
+.nav_fonte{
+    background-color: rgba(61, 51, 64, 0.519);
+    color:rgb(186, 229, 196);
+    border-radius: 40px;
+    padding-top: 4px;
+    text-align: center; 
+}
+.nav-item{
+    display: inline-block;
+    padding: 15px 35px;
+    position: relative;
+    color: #888;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: color 0.6s;
+    z-index: 1;
+    cursor: pointer;
+}
+.nav-item::before{
+    content: ''; 
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: #6200ea;
+    clip-path: circle(0% at 50% 50%);
+    transition: clip-path 0.6s cubic-bezier(0.4, 0, 0.2, 1); 
+}
+.nav-item:hover{
+    color:aliceblue;
+}
+.nav-item:hover::before{
+    clip-path: circle(100% at 50% 50%);
+}
+
+/*section*/
+.section1_fonte{
+    background-color: rgba(127, 31, 162, 0.819);
+    display: inline-flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 40px 20px;
+    margin: 0 auto;
+}
+/*div1*/
+.lista1_fonte{
+    border-radius: 10px;
+    padding: 40px 20px;
+    margin: 0px auto;
+    align-items: left;
+    text-align: left;
+    padding-top: 0; 
+    cursor: pointer;
+}
+.lista1_fonte table{
+    display: inline-block;
+    background-color: rgba(6, 92, 172, 0.667);
+    border-width: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: rgba(17, 34, 145, 0.781);
+    border-width: 2px;
+}
+.lista1_fonte th{
+    position: relative;
+    overflow: hidden;
+    transition: color 0.6s;
+    z-index: 1;
+    background-color: rgba(6, 172, 42, 0.667);
+    border-radius: 10px;
+    padding-inline: 10px;
+    border-style: solid;
+    border-color: rgb(16, 152, 41);
+    border-width: 2px;
+}
+.lista1_fonte th::before{
+    content: '';
+    position:absolute;
+    inset: 0;
+    z-index: -1;
+    background: rgb(0, 255, 162);
+    clip-path: circle(0% at 50% 50%);
+    transition: clip-path 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.lista1_fonte th:hover::before{
+    clip-path: circle(100% at 50% 50%);
+}
+.lista1_fonte th:hover{
+   color: rgb(9, 105, 16);
+}
+.lista1_fonte table tbody td{
+    background-color: rgba(44, 206, 74, 0.467);
+    border-radius: 10px;
+    padding-inline: 10px;
+    border-style: solid;
+    border-color: rgb(44, 206, 74);
+    border-width: 2px;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.6s;
+    z-index: 1;
+}
+.lista1_fonte td:hover{
+   color: rgb(14, 77, 19);
+   background-color: rgb(44, 206, 74);
+   border-color: rgb(16, 152, 41);
+   border-style: solid;
+   border-width: 2px;
+}
+/*div2*/
+.lista2_fonte{
+    background-color: rgba(6, 172, 42, 0.667);
+    border-color: black;
+    border-width: 10px;
+    color:rgb(186, 229, 196);
+    border-radius: 10px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 0;
+}
+/*div3*/
+.lista3_fonte{
+    background-color: rgba(219, 5, 155, 0.667); 
+    padding: 20px 20px;
+    border-radius: 8px;
+    display: inline-block;
+
+}
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+                                                    /* F O R M U L A R I O */
+
+.body_formulario{
+    background-color: rgb(16, 19, 87);
+    font-family: fantasy;
+    color:rgb(225, 199, 165);
+    letter-spacing: 1px;
+}
+
+.main_formulario{   
+    text-align: center;
+    font-size: larger; 
+}
+#nav_formulario{
+    margin-top: 100px;
+    background-color: #433b3b7e;
+    border-radius: 30px;
+    display: inline-block; 
+    padding:40px 40px;
+}
+#nav_formulario span{
+    display: inline-block; /* O elemento 'display' define o tipo de exibição do elemento. */
+    padding: 15px 35px; /* O elemento "padding" define o espaçamento interno do elemento */
+    letter-spacing: 1px;
+    position: relative; /* O elemento 'position' define a posição de um elemento em relação a outro elemento pai. o valor 'relative' */
+    color: #888; /* O elemento 'color' define a cor do texto do elemento. */
+    border-radius: 30px; 
+    overflow: hidden;
+    transition: color 0.6s; 
+    z-index: 1; /* O elemento 'z-index' define a ordem de exibição dos elementos em uma página web. */
+    cursor: pointer;
+}
+#nav_formulario span::before{
+    content: ''; 
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: #6200ea;
+    clip-path: circle(0% at 50% 50%);
+    transition: clip-path 0.6s cubic-bezier(0.4, 0, 0.2, 1); 
+}
+#nav_formulario span:hover{
+    color:aliceblue;
+}
+#nav_formulario span:hover::before{
+    clip-path: circle(100% at 50% 50%);
+}
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+/////// posicionamento - Projeto - teste //////////////////////////////////////////
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.body_project{
+    background-color: rgb(9, 163, 119);/* cor de fundo do corpo da página */
+    font-family: fantasy; /* O elemento 'font-family' define a família de fontes para o texto do elemento. O valor 'fantasy' indica que uma fonte de fantasia genérica deve ser usada, que pode variar dependendo do sistema operacional e do navegador. */
+    color:rgb(113, 78, 22);  /* cor de fonte do texto */
+    letter-spacing: 1px; /* O elemento 'letter-spacing' define o espaçamento entre as letras do texto. O valor '1px' indica que deve haver um espaçamento de 1 pixel entre as letras. */
+}
+.main_project{  
+    display: block; /* O elemento 'display' define o tipo de exibição do elemento. O valor 'block' indica que o elemento deve ser exibido como um bloco, ocupando toda a largura disponível e iniciando em uma nova linha. */
+    margin: 0 auto; /* centraliza */
+    width: 80%; /* importante */
+    text-align: center;
+    font-size: larger; 
+}
+.topo{
+    display: inline-block
+}
+.header_project{
+    position: relative;
+    margin: 5px auto; /* O elemento 'margin' define a margem externa do elemento, ou seja, a distância entre o elemento e os outros elementos AO SEU REDOR. O valor '5px auto' indica que deve haver uma margem de 5 pixels na parte superior e inferior do elemento, e a margem esquerda e direita devem ser automáticas, o que centraliza o elemento horizontalmente. */
+    text-align: center; /* O elemento 'text-align' define o alinhamento horizontal do texto dentro do elemento. O valor 'center' indica que o texto deve ser centralizado. */
+    background-color: #155b6c7e;
+    border-radius: 30px;
+    padding:1px
+}
+.header_project h1{
+    padding: 20px 90px;
+    margin: 0; /* O elemento 'margin' define a margem externa do elemento, ou seja, a distância entre o elemento e os outros elementos AO SEU REDOR. O valor '0' indica que não deve haver margem. */
+    font-size: 50px; /* O elemento 'font-size' define o tamanho da fonte do texto. O valor '50px' indica que o texto deve ter um tamanho de 50 pixels. */
+    letter-spacing: 5px;
+    color: rgb(186, 229, 196);
+    cursor: default;
+}
+.ajuda{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    background-color: #aaca1d7e;
+    border-radius: 30px;
+    padding: 20px 40px; 
+    cursor: pointer;
+}
+.menu_lateral{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    background-color: #0476aeb0;
+    border-radius: 20px;
+    padding: 0px 25px;
+    cursor: pointer;
+}
+.menu_central{
+    margin-top: 10px;
+    background-color: #083aa57e;
+    border-radius: 40px;
+    padding: 5px 10px;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+
+}
+.menu_central nav ul li {
+    display: inline-block;
+    padding: auto 20px;
+    color: #350964;
+    border-radius: 40px;
+    margin-left: 60px;
+}
+
+.menu_central ul{
+    list-style: none;
+    padding: 0;
+}
+
+.menu_central li{
+    margin: 10px 0;
+    cursor: pointer;
+}
